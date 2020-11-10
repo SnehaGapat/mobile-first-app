@@ -1,0 +1,12 @@
+.mobile
+{
+    display-inline: block;
+    margin: 10px;
+    border: 1px solid #aaaaaa;
+    box-shadow: 0 3px 3px #cccccc;
+    padding: 0 20px 10px 20px;
+    width: 250px;
+    height: 249px;
+    background-color:  #58D68D ;
+   
+  }
