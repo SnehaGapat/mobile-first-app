@@ -1,8 +1,10 @@
 import './mobile.css'
 const mobile= props =>
 (
-    <div>
-        <h1>Mobile: {props.Mobile}</h1>
+   
+    <div className="mobile"> 
+    
+        <h1>Mobile: {props.MobileName}</h1>
         <p><i>Name: {props.name}</i></p>
         <p><i>Manufacturer:{props.manufacturer}</i></p>
         <p><i>Price: {props.price}</i></p>

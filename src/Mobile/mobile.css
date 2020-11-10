@@ -1,12 +1,22 @@
 .mobile
 {
-    display-inline: block;
+    padding-inline: block;
     margin: 10px;
     border: 1px solid #aaaaaa;
+    border-radius: 25px;
     box-shadow: 0 3px 3px #cccccc;
     padding: 0 20px 10px 20px;
-    width: 250px;
+    width: 260px;
     height: 249px;
     background-color:  #58D68D ;
+    text-shadow: 0 0 3px black;
+    
+    transition-timing-function: linear;
+    transition: width 1s;
+    
    
   }
+  div:hover {
+    width: 300px;
+  }
+  
