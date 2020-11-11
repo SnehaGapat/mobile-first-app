@@ -17,7 +17,7 @@ class App extends React.Component {
   }
   render(){
     return(
-      <div className="App">
+      <div className="App container-fluid">
         <h1>List Of Mobile Models:</h1>
         <Mobile MobileName={this.state.mobiles[0].MobileName} name={this.state.mobiles[0].name} manufacturer={this.state.mobiles[0].manufacturer} price={this.state.mobiles[0].price} ram={this.state.mobiles[0].ram} color={this.state.mobiles[0].color}/>
         <Mobile MobileName={this.state.mobiles[1].MobileName} name={this.state.mobiles[1].name} manufacturer={this.state.mobiles[1].manufacturer} price={this.state.mobiles[1].price} ram={this.state.mobiles[1].ram} color={this.state.mobiles[1].color}/>
