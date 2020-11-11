@@ -19,4 +19,7 @@
   div:hover {
     width: 300px;
   }
+  div{
+      margin-left: 15px;
+  }
   
