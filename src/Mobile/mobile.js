@@ -2,7 +2,7 @@ import './mobile.css'
 const mobile= props =>
 (
    
-    <div className="mobile col-sm-4"> 
+    <div className="mobile col-lg-2"> 
     
         <h1>Mobile: {props.MobileName}</h1>
         <p><i>Name: {props.name}</i></p>
